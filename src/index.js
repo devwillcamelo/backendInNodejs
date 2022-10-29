@@ -1,6 +1,6 @@
 const express = require ('express');
 const server = express ();
-server.use( express.json());
+server.use(express.json());
 
 const TaskRoutes = require('./routes/TaskRoutes');
 server.use('/task', TaskRoutes);
